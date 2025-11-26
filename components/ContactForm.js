@@ -3,9 +3,10 @@
 
 // 1. On importe 'useState' pour gérer l'état du formulaire
 import { useState } from 'react';
+import { API_URL } from '@/lib/config';
 
 // URL de notre API Laravel
-const API_URL = 'http://localhost:8000/api';
+//const API_URL = 'http://localhost:8000/api';
 
 export default function ContactForm() {
   // 2. États pour chaque champ du formulaire

@@ -7,9 +7,10 @@ import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import BlogPreview from "@/components/BlogPreview"; // 1. Importez le composant
 import ContactForm from "@/components/ContactForm";
+import { API_URL } from '@/lib/config';
 
 // URL de notre API Laravel
-const API_URL = 'http://localhost:8000/api';
+//const API_URL = 'http://localhost:8000/api';
 
 /**
  * Fonction pour récupérer les articles de l'API

@@ -3,8 +3,9 @@
 
 import { useState } from 'react';
 import ArticleCard from '@/components/ArticleCard';
+import { API_URL } from '@/lib/config';
 
-const API_URL = 'http://localhost:8000/api';
+//const API_URL = 'http://localhost:8000/api';
 
 export default function BlogList({ initialArticles, search, category }) {
   

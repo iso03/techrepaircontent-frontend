@@ -2,8 +2,9 @@
 
 import BlogSidebar from '@/components/BlogSidebar';
 import BlogList from '@/components/BlogList'; // <-- Nouveau composant
+import { API_URL, API_STORAGE_URL } from '@/lib/config';
 
-const API_URL = 'http://localhost:8000/api';
+//const API_URL = 'http://localhost:8000/api';
 
 async function getAllArticles(search = '', categorySlug = '') {
   try {

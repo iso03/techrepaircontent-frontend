@@ -3,9 +3,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import ShareButtons from '@/components/ShareButtons';
+import { API_URL, API_STORAGE_URL } from '@/lib/config';
 
-const API_URL = 'http://localhost:8000/api'; // <-- CORRECTION
-const API_STORAGE_URL = 'http://localhost:8000/storage'; // <-- CORRECTION
+//const API_URL = 'http://localhost:8000/api'; // <-- CORRECTION
+//const API_STORAGE_URL = 'http://localhost:8000/storage'; // <-- CORRECTION
 
 /**
  * Fonction pour récupérer UN article par son SLUG

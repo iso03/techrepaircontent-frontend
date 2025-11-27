@@ -1,8 +1,9 @@
 // components/Testimonials.js
 'use client';
 import Image from 'next/image';
+import { API_STORAGE_URL } from '@/lib/config';
 
-const API_STORAGE_URL = 'http://localhost:8000/storage';
+//const API_STORAGE_URL = 'http://localhost:8000/storage';
 
 // Sous-composant Stars (inchangé)
 const Stars = ({ rating }) => (

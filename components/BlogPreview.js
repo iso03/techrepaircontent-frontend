@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { API_STORAGE_URL } from '@/lib/config';// api storage
+import { API_STORAGE_URL } from '@/lib/config';
 
 //const API_STORAGE_URL = 'http://localhost:8000/storage';
 

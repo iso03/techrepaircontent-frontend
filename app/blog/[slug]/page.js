@@ -1,5 +1,6 @@
 // app/blog/[slug]/page.js
 export const dynamic = 'force-dynamic';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import ShareButtons from '@/components/ShareButtons';

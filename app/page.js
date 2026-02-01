@@ -1,5 +1,6 @@
 // app/page.js
 export const dynamic = 'force-dynamic';
+
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import About from "@/components/About";

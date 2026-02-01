@@ -1,5 +1,5 @@
 // app/blog/page.js
-
+export const dynamic = 'force-dynamic';
 import BlogSidebar from '@/components/BlogSidebar';
 import BlogList from '@/components/BlogList'; // <-- Nouveau composant
 import { API_URL, API_STORAGE_URL } from '@/lib/config';

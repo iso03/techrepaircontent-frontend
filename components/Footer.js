@@ -2,8 +2,10 @@
 'use client';
 
 import Link from 'next/link';
+import { API_URL } from '@/lib/config';
 
 export default function Footer() {
+  const loginUrl = API_URL.replace('/api', '/login');
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
@@ -84,7 +86,7 @@ export default function Footer() {
             <a href="#" className="hover:text-white transition-colors">CGV</a>
             {/* Lien vers l'admin (CdC 2.1) */}
             <a 
-              href="http://127.0.0.1:8000/login" // Lien direct vers le back-office
+              href={loginUrl} // Lien direct vers le back-office
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
